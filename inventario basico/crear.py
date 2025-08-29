@@ -1,0 +1,8 @@
+nombre_producto = input("Ingrese el nombre del producto: ")
+Descripción = input("Ingrese una descripción del producto: ")
+Tipo = input("Ingrese el tipo de producto (alimento, inmuelble, aseo, etc): ")
+Precio = input("Ingrese el precio del producto: ")
+archivo = open("inventario.txt", "a")
+archivo.write(nombre_producto +  "," + Descripción + "," + Tipo + "," + Precio + "," "\n")
+archivo.close()
+print("El archivo ha sido creado.")
