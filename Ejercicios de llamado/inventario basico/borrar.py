@@ -18,7 +18,7 @@ if numero_registro < 1 or numero_registro > len(lineas):
     exit()
 datos_borrar = lineas[numero_registro - 1].strip().split(",")
 print(f"\nborrando registro {numero_registro}")
-print(f"nombre del producto a borrar a borrar: {datos_borrar[0]}")
+print(f"nombre del producto a borrar: {datos_borrar[0]}")
 print(f"descripción del producto a borrar: {datos_borrar[1]}")
 print(f"Tipo de producto a borrar: {datos_borrar[2]}")
 print(f"Precio de producto a borrar: {datos_borrar[3]}")
